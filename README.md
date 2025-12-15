@@ -1,9 +1,12 @@
 # PointONet: Predicting physical fields using a PointNet-based neural operator with arbitrary sensors
 Sample codes for a PointNet-based neural operator learning framework (PointONet) that integrates arbitrary sensors to accurately predict physical fields. In the model architecture, the branch network integrates the permutation invariance and geometric feature extraction of PointNet to adaptively encode arbitrary sensors, where the PointNet-based architectures is designed to characterize varying input function. Meanwhile, the trunk network encodes the query coordinates of the output function. By combing the branch and trunk network, the PointONet approximates operator relationships between function spaces.
 
+# Workflow
+<div align="center">
+  <img src="https://github.com/liuxu97531/PointONet/blob/main/figs/models.PNG?raw=true" alt="Main Result" style="width:50%;">
+  <p><em>Figure 1: Overview of our DSPO framework.</em></p>
+</div>
 
-## Reference
-Yuxiang Weng, Xu Liu, Jiansha Lua, Wei Peng, Wen Yao. PointONet: Predicting physical fields using a PointNet-based neural operator with arbitrary sensors, arXiv preprint arXiv.
 
 ## Information
 ```python
@@ -48,3 +51,6 @@ pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install tqdm scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install tensorboard scikit-learn -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+## Reference
+Yuxiang Weng, Xu Liu, Jiansha Lua, Wei Peng, Wen Yao. PointONet: Predicting physical fields using a PointNet-based neural operator with arbitrary sensors, arXiv preprint arXiv.
