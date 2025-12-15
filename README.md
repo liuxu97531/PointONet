@@ -4,7 +4,7 @@ Sample codes for a PointNet-based neural operator learning framework (PointONet)
 # Workflow
 <div align="center">
   <img src="https://github.com/liuxu97531/PointONet/blob/main/figs/models.PNG?raw=true" alt="Main Result" style="width:50%;">
-  <p><em>Figure 1: Overview of our DSPO framework.</em></p>
+  <p><em>Figure 1: Overview of PointNet, DeepONet, and PointONet.</em></p>
 </div>
 
 
